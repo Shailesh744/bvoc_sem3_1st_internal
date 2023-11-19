@@ -1,0 +1,27 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.result-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.result-table th, .result-table td {
+    border: 1px dotted black;
+    padding: 8px;
+    text-align: center;
+}
+
+.result-table th {
+    background-color: yellow;
+    color: red;
+    font-weight: bold;
+}
+
+.result-table tr:nth-child(even) {
+    background-color: green;
+    color: red;
+    font-style: italic;
+    text-decoration: underline;
+}
